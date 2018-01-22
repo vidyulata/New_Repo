@@ -18,5 +18,19 @@
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
+<distributionManagement>
+<repository>
+<id>releases</id>
+<name>Releases</name>
+<url>http://13.126.241.43:8081/repository/Sampl_rel/</url>
+</repository>
+<snapshotRepository>
+<id>snapshots</id>
+<name>snapshots</name>
+<url>http://13.126.241.43:8081/repository/sampl_snap/</url>
+
+</snapshotRepository>
+
+</distributionManagement>
 
 </project>
